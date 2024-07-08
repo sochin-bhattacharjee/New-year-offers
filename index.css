@@ -1,0 +1,51 @@
+/* Merriweather font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+.merriweather-font{
+    font-family: "Merriweather", serif;
+}
+
+/* inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+.inter-font{
+    font-family: "Inter", sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner section start */
+/* Happy new year section */
+.new-year{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    
+}
+.new-year-celebration{
+    color: white;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+.Happy-new-year-img{
+    
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("images/Banner\ Image.png");
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+.happy-new-year-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
