@@ -295,7 +295,6 @@
     width: 1320px;
     height: 986px;
     margin: 120px auto;
-    /* border: 5px solid red; */
     background-image: url("images/Rectangle\ 2.png");
     background-position: bottom;
     background-repeat: no-repeat;
@@ -330,7 +329,7 @@
     font-weight: 500;
     line-height: 32px;
     text-align: center;
-    
+
 }
 
 .holiday-sale-image {
@@ -338,11 +337,13 @@
     justify-content: space-around;
     position: relative;
 }
-.holiday-sale-image-box{
+
+.holiday-sale-image-box {
     width: 672px;
     margin-top: 64px;
     height: 610px;
 }
+
 .holiday-sale-image-discount {
     width: 306.841px;
     height: 306.841px;
@@ -361,3 +362,83 @@
     position: relative;
     right: -53px;
 }
+
+/* section 6 end*/
+
+/* section 9 start */
+/* footer section start */
+/* section footer start*/
+.footer-section {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin: 0 auto;
+}
+
+.footer-section-up-description {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-section-up-icon {
+    width: 24px;
+    height: 24px;
+    display: ;
+}
+
+.footer-section-up-phoneweb {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-section-up-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section-up-pw {
+    margin-top: 120px;
+    margin-right: 275px;
+}
+
+.footer-section-up-desmar {
+    margin-top: 120px;
+    margin-left: 140px;
+}
+
+/* fotter section 9-2 end */
+
+/* fotter section 9-2 start */
+.footer-section-social-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* footer section 9-2 end */
+
+/* footer section 9-3 start */
+.footer-section-down-content-comment {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-section-down-content{
+    display: flex;
+    flex-direction: row;
+    gap: 880px;
+    margin-left: 140px;
+    margin-top: 160px;
+}
+/* footer section 9-3 end */
+/* footer section end */
